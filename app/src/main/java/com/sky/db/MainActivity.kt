@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DBTheme {
-                //sample
+        
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                    tt(this)
                 }
